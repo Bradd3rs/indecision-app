@@ -1,10 +1,7 @@
-// import { square, add } from './utils';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
+import 'normalize.css/normalize.css';
+import './styles/styles.scss';
 
-// console.log('app.js is running');
-// console.log(square(4));
-// console.log(add(4, 100));
-
-import { isAdult, canDrink } from './person';
-
-console.log(isAdult(17));
-console.log(canDrink(23));
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
